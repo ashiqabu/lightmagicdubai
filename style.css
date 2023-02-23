@@ -1,0 +1,41 @@
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+*{
+ margin: 0; 
+ padding: 0;   
+ box-sizing: border-box;
+}
+
+.logo{
+    width: 168px;
+    height: 60px;
+    background-image: url(images/logo.png);
+    background-size: cover;
+}
+.text h6{
+    color: rgb(249, 249, 249);
+}
+.text h2{
+    color: rgb(207, 175, 50); 
+    word-spacing: 10px;
+}
+footer{
+  background-color:#6c757d;
+}
